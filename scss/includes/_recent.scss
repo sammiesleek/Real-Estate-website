@@ -64,7 +64,7 @@
                 }
                 .item{
                    
-                    margin-right: 10px;
+                    padding: 10px;
                     @media (max-width:820px) {
                         margin-bottom: 40px;
                         padding: 0px;       
@@ -88,7 +88,7 @@
 
                         }
                         .bt{
-                               border-bottom: 1px solid #e5e5e5;
+                               border-bottom: $b-db;
                             .titt{
                                 display: flex;
                                 margin-top:15px;
