@@ -1,0 +1,137 @@
+#our-agents{
+    padding: 50px 0px;
+    background: $bg1;
+    .box{
+        .head{
+             display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+            .hd{
+                color: $hd;
+                font-size: 30px;
+                font-weight: 800;
+            }
+        }
+        .items{
+            .item{
+                margin-right: 20px;
+                .img{
+                     &::before{
+                            position:absolute;
+                            content:'';
+                            width:100%;
+                            height: 100%;
+                            background: rgba(0,0,0,0.3);
+                            display: block;
+                        }
+                    position: relative;
+                    img{
+                        // filter:saturate(1)
+                        // position: relative;
+                        z-index: 2;
+                       
+                    }
+                    .list{
+                        position: absolute;
+                        top: 10px ;
+                        left: 10px;
+                        background: $con2;
+                        padding: 5px 10px;
+                        font-weight: 600;
+                        color: $con3;
+                    }
+                    .agency{
+                        position: absolute;
+                        font-weight: 700;
+                        font-size: 16px;
+                        left: 20px;
+                        color: $con3;
+                        top: 90%;
+                        transform: translateY(-90%);
+
+                    }
+                }
+                .btm{
+                    .tp{
+                        margin-top: 15px;
+                        display: flex;
+                        justify-content: space-between;
+                        h5{
+                            font-size: 20px;
+                            font-weight: 700;
+                            color: $hd;
+                        }
+                        .sh{
+                            padding: 7px;
+                            background: $con1;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            i{
+                                // padding: 0px 4px;
+                                color: $con3;
+                                font-size: 20px;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                    .bt{
+                        display: flex;
+                        flex-direction: row;
+                        margin-top: 15px;
+                        @media (max-width:540px) {
+                            flex-direction: column;
+                        }
+                        @media (min-width:1000px) and (max-width:2000px) {
+                            flex-direction: column;
+                        }
+                        span{
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            margin-right: 15px;
+                            margin-bottom: 10px;
+                            i{
+                                margin-right: 5px;
+                                color: $con1;
+                                font-size: 20px;
+                            }
+                            a{
+                                color: $txt1;
+                                font-size: 14px;
+                                font-weight: 500;
+                                letter-spacing: 1px;
+                                &:hover{
+                                    color: $con2;
+                                }
+                            }
+                        }
+
+                    }
+                    .rdm{
+                        margin-top: 15px;
+
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: fit-content;
+                        a{
+                            font-size: 15px;
+                            color: $con1;
+                            font-weight: 600;
+                            transition: all ease-in-out .3s;
+                            &:hover{
+                                letter-spacing: 2px;
+                            }
+                        }
+                        i{
+                            margin-left: 3px;
+                            font-size: 25px;
+                            color: $con1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

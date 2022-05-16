@@ -1,0 +1,42 @@
+#testimony{
+    padding: 60px 0px;
+    background: $ttbg;
+    .box{
+        .head{
+            margin-bottom: 20px;
+            .hd{
+                 color: $hd;
+                font-size: 30px;
+                font-weight: 800;
+            
+            }
+        }
+        .item{
+            background: $spbg;
+            .left{
+
+            }
+            .right{
+                display: flex;
+                justify-content: center;
+                // align-items: center;
+                flex-direction: column;
+                // padding-right: 20px;
+                p{
+                    color:$txt1;
+                }
+                h6{
+                    font-weight: 700;
+                    font-size: 20px;
+                }
+                .ratins{
+                    display: flex;
+                    i{
+                        color: $con2;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

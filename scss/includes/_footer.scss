@@ -1,0 +1,253 @@
+footer{
+    #contact{
+        padding: 100px 0px;
+        background: $nbg;
+        .wr-ap{
+            .row{
+                .item1{
+                    .bx{
+                        .he-ad{
+                            color: $color2;
+                            font-size: 25px;
+                        }
+                        p{
+                            font-size: 15px;
+                            color: #464646;
+                        }
+                        span{
+                            p{
+                                font-size: 17px;
+                                font-weight: 500;
+
+                            }
+                            .p2{
+                                
+                            }
+                        }
+                        span{
+                            font-size: 17px;
+                            font-weight: 500;
+                            display: block;
+                            a{
+                                color: $color1;
+                            }
+                            &:last-child{
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+                }
+                .item2{
+                    .bx{
+                        display: flex;
+                        flex-direction: column;
+                        width: 100% ;
+                        .hd{
+                            .he-ad{
+                                color: $color2;
+                                font-size:24px;
+                            }
+                        }
+                        .form{
+                            display: flex;
+                            flex-direction: column;
+                            width: 100%;
+                            form{
+                                display: flex;
+                                flex-direction: column;
+                                width: 100%;
+                                .in-put{
+                                    display: grid;
+                                    grid-template-columns: repeat(2,1fr);
+                                    grid-gap: 30px ;
+                                    @media (max-width:650px) {
+                                        grid-template-columns: 1fr;
+                                    }
+                                    input{
+                                        padding: 15px 10px;
+                                        width: 100%;
+                                        border: 0;
+                                        outline: none;
+                                        font-size: 15px;
+                                        font-weight: 500;
+
+                                    }
+                                }
+                                textarea{
+                                    margin-top: 30px;
+                                    border: 0;
+                                    outline: none;
+                                    padding: 15px 0px 0px 15px;
+                                }
+                                .snd{
+                                    width: fit-content;
+                                    padding: 15px 20px;
+                                    display: flex;
+                                    margin-top: 30px;
+                                    border-radius: 5px;
+                                    background: $color1;
+                                    transition: all ease-in-out .4s;
+                                    border: 0;
+                                    font-weight: 600;
+                                    color: white;
+                                    &:hover{
+                                        background: $color2;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .newsleter{
+        padding: 70px 0px;
+          background: $nbg2;
+        .box{
+            .hd{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .he-ad{
+                     color: $hd;
+                font-size: 30px;
+                font-weight: 800;
+                }
+                p{
+                    color: $txt1;
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
+            .form{
+                display: flex;
+                width: 100%;
+                form{
+                    display: flex;
+                    width: 100%;
+                    margin: 0 auto;
+                    justify-content: center;
+                    @media (max-width:450px) {
+                        flex-direction: column;
+                    }
+                    .inp{
+                        padding: 15px 20px;
+                        max-width: 500px;
+                        background: #ebebeb;
+                        border: none;
+                        outline: none;
+                        border-radius: 5px;
+                        margin-right: 20px;
+                         @media (max-width:450px) {
+                        width: 100%;
+                        margin-bottom: 30px;
+                    }
+                        @media (min-width:990px) {
+                            min-width: 400px;
+                        }
+                    }
+                    .sub{
+                        padding: 15px 20px;
+                        border: 0;
+                        outline: none;
+                        border-radius: 5px;
+                        background: $con1;
+                        color: $con3;
+                    }
+
+                }
+            }
+        }
+    }
+    .navigation{
+        background: $lst;
+        padding: 100px 0px ;
+        .box{
+            .row{
+                .it1{
+                    .bx{
+                        a{
+                            img{
+                                display: block;
+                                width: 150px;
+                            }
+                        }
+                        .info{
+                            color: $txt1;
+                            margin-top: 25px;
+                            opacity: 0.7;
+
+                        }
+                        span{
+                            display: flex;
+                            i{
+                                color: $con1;
+                                font-size: 22px;
+                                margin-right: 30px;
+                                transition: transform .2s ease-in-out;
+                                &:hover{
+                                    transform: scale(1.5);
+                                }
+                            }
+                        }
+                    }
+                }
+                .it2{
+                    .bx{
+                        .hd{
+                            .he-ad{
+                                color: $hd;
+                                font-size: 25px;
+                                font-weight: 600;
+                            }
+                        }
+                        .navs{
+                            display: flex;
+                            flex-direction: column;
+                            a{
+                                margin-bottom: 20px;
+                                color: $txt1;
+                                font-size: 15px;
+                                opacity: 0.7;
+                                transition: all ease-in-out opacity;
+                                &:hover{
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                    }
+                }
+                .it3{
+                    .bx{
+                        .hd{
+                            .he-ad{
+                                color: $hd;
+                                font-size: 25px;
+                                font-weight: 600;
+                            }
+                        }
+                        .navs{
+                            img{
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .cpry{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+        .cpy{
+            text-align: center;
+            a{
+                color: $color1;
+            }
+        }
+    }
+}

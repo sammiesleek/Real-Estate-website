@@ -1,0 +1,30 @@
+#neighborhood{
+    background: $bgt;
+    padding: 70px 0px ;
+    .box{
+        .head{
+             display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+            .hd{
+                 color: $hd;
+                font-size: 30px;
+                font-weight: 800;
+            }
+        }
+        .items{
+            .item{
+                margin-right: 30px;
+                p{
+                    font-weight: 700;
+                    margin-bottom:0 ;
+                    color: $hd;
+                }
+                span{
+                    color:$txt1;
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+:root{
+    --primary-color:rgb(234,114,61);
+    --secondary-color:rgb(0,103,102);
+    --bg1:#fff;
+    --bg2:rgb(244,250,254);
+   --bx-color:rgb(229,229,229);
+    --lkc:black;
+    --cg:white;
+    --cg2:white;
+    --mainh:rgb(244,250,254);
+    --mainh2:#DFEBF2;
+    --hd:#2b3b3a;
+    --txt1:#757575;
+    --bgwhite:white;
+    --spbg:rgb(241,248,249);
+    --nbg:rgb(251,243,243);
+    --h:rgb(255,255,255);
+    --bg-1:white;
+    --bgt:rgb(242,247,253);
+    --bdb:1px solid #e5e5e5;
+    --ttbg:transparent;
+    --nbg:rgb(251,243,243);
+    --nbg2:white;
+    --lst:rgb(241,248,249);
+
+
+
+
+}
+
+.dark-theme{
+   
+    --primary-color:rgb(182, 234, 61);
+    --secondary-color:rgb(166, 240, 238);
+    --bg1:rgb(17,17,17);
+    --bg2:rgb(244,250,254);
+    --bx-color:rgb(32,32,32);
+    --lkc:white;
+    --cg:#2b3b3a;
+    --cg2:rgb(0,0,0);
+    --mainh:rgb(26,26,26);
+    --mainh2:rgb(32,32,32);
+    --hd:white;
+    --txt1:white;
+    --bgwhite:rgb(17,17,17);
+    --spbg:rgb(26,26,26);
+    --nbg:rgb(26,26,26);
+    --h:rgb(255, 32, 32);
+    --bg-1:#111111;
+    --bdb:1px solid #242424;
+    --bgt:rgb(26,26,26);
+    --ttbg:rgb(17,17,17);
+    --nbg:rgb(26,26,26);
+    --nbg2:rgb(26,26,26);
+    --lst:rgb(17,17,17)
+
+
+
+}

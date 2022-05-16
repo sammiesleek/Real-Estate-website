@@ -1,0 +1,127 @@
+#home{
+    width: 100vw;
+    overflow-x: hidden;
+    background: $mainh;
+    padding: 80px 0px;
+    .box{
+        margin: 50px 0px 30px 0px;
+        .row{
+            .lft{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .cont{
+                    .anc{
+                        color: $con1;
+                        font-weight: 600;
+                        font-size: 14px;
+                        font-family: 'Source Sans Pro', sans-serif;
+                    }
+                    .hd{
+                        color: $hd;
+                        font-size: 30px;
+                        font-weight: 800;
+                    }
+                    .pr{
+                        color: $txt1;
+                        font-size: 15px;
+                        font-weight: 15px;
+                        font-family: 'Source Sans Pro', sans-serif;
+                    }
+                    .search-area{
+                        background: $mainh2;
+                        padding: 30px 20px;
+                        display: flex;
+                        flex-direction: column;
+                        .head{
+                            .sts{
+                                font-size: 16px;
+                                font-weight: 700;
+                                margin-bottom: 10px;
+                                color: $hd;
+                                 font-family: 'Source Sans Pro', sans-serif;
+                                
+                            }
+                            span{
+                                display: block;
+                                margin-bottom:30px;
+                                .cmo{
+                                    padding: 8px 15px;
+                                    color:$con1;
+                                    font-weight: 600;
+                                    font-size: 15px;
+                                    border: none;
+                                    background: $con3;
+                                     font-family: 'Source Sans Pro', sans-serif;
+                                     &.active{
+                                         background: $con1;
+                                         color: $con3;
+                                     }
+                                }
+                            }
+                        }
+                        .for-a{
+                            position: relative;
+                            .for-ms:nth-child(2){
+                                &.off{
+                                    display: none;
+                                }
+                            }
+                            form{
+                                &:last-child{
+                                    
+                                }
+                                // @media (min-width:1200px) {
+                                    //     flex-direction: row;
+                                    //       align-items: center;
+                                    // justify-content: space-around;
+                                    // }
+                                    width: 100% !important;
+                                display: flex;
+                                font-family: 'Source Sans Pro', sans-serif;
+                                flex-direction: column;
+                              
+                                input{
+                                    padding: 12px 10px;
+                                    width: 100%;
+                                    border: 0;
+                                    outline: none;
+                                    height: fit-content;
+                                    background: $bg-1;
+                                }
+                                .subm{
+                                    background: $hd;
+                                    color: $con3;
+                                    font-weight: 600;
+
+                                }
+                                select{
+                                    margin: 15px 0px;
+                                    border: 0;
+                                    background: $bg-1;
+                                    outline: none;
+                                    padding: 12px 10px;
+                                    color: $hd;
+                                   
+
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+            .rgt{
+                .cont{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+
+        }
+    }
+}
