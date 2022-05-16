@@ -28,7 +28,7 @@ $("#our-agents .owl-carousel").owlCarousel({
     nav:true,
     dots:false,
     animateIn: 'flipInX',
-    autoplay:false,
+    autoplay:true,
      responsive:{
             0:{
                 items:1
@@ -52,7 +52,7 @@ $("#neighborhood .owl-carousel").owlCarousel({
     nav:true,
     dots:false,
     animateIn: 'flipInX',
-    autoplay:false,
+    autoplay:true,
      responsive:{
             0:{
                 items:1
@@ -147,7 +147,7 @@ $(document).ready(function(){
         layoutMode:'fitRows'
     })
     $(".fltbtn").on("click", "button",function(e){
-        $(".fltbtnss button").removeClass('active')
+        $(".fltbtn button").removeClass('active')
         $(".for-ms").removeClass('off')
         var filterValue=$(this).attr('data-filter');
        $(this).addClass('active')
