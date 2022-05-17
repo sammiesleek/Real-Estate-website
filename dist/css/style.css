@@ -657,7 +657,8 @@ header .box .nabt i {
 
 @media (max-width: 999px) {
   #help .box .row .item .cont {
-    background-color: white;
+    background-color: var(--chg);
+    padding: 25px 25px;
   }
 }
 
@@ -1613,7 +1614,7 @@ header .box .nabt i {
 
 #testimony .box .item {
   background: var(--spbg);
-  padding: 0px 15px;
+  padding: 0px  15px 20px 15px;
 }
 
 #testimony .box .item .right {
@@ -1636,6 +1637,7 @@ header .box .nabt i {
 #testimony .box .item .right h6 {
   font-weight: 700;
   font-size: 20px;
+  color: var(--hd);
 }
 
 #testimony .box .item .right .ratins {
@@ -1647,6 +1649,10 @@ header .box .nabt i {
 #testimony .box .item .right .ratins i {
   color: #ea723d;
   font-size: 20px;
+}
+
+footer {
+  font-family: 'Raleway', sans-serif;
 }
 
 footer #contact {
@@ -1869,6 +1875,13 @@ footer .newsleter .box .form form .sub {
 footer .navigation {
   background: var(--lst);
   padding: 100px 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width: 700px) {
+  footer .navigation .box .row {
+    grid-row-gap: 20px;
+  }
 }
 
 footer .navigation .box .row .it1 .bx a img {
@@ -1880,12 +1893,14 @@ footer .navigation .box .row .it1 .bx .info {
   color: var(--hd);
   margin-top: 25px;
   opacity: 0.7;
+  font-family: 'Raleway', sans-serif;
 }
 
 footer .navigation .box .row .it1 .bx span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-family: 'Raleway', sans-serif;
 }
 
 footer .navigation .box .row .it1 .bx span i {
@@ -1907,6 +1922,8 @@ footer .navigation .box .row .it2 .bx .hd .he-ad {
   color: var(--hd);
   font-size: 25px;
   font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 15px;
 }
 
 footer .navigation .box .row .it2 .bx .navs {
@@ -1923,6 +1940,7 @@ footer .navigation .box .row .it2 .bx .navs a {
   margin-bottom: 20px;
   color: var(--hd);
   font-size: 15px;
+  font-family: 'Raleway', sans-serif;
   opacity: 0.7;
   -webkit-transition: all ease-in-out opacity;
   transition: all ease-in-out opacity;
@@ -1936,6 +1954,12 @@ footer .navigation .box .row .it3 .bx .hd .he-ad {
   color: var(--hd);
   font-size: 25px;
   font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 15px;
+}
+
+footer .navigation .box .row .it3 .bx .navs a {
+  font-family: 'Raleway', sans-serif;
 }
 
 footer .navigation .box .row .it3 .bx .navs img {

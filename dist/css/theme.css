@@ -22,6 +22,7 @@
     --nbg:rgb(251,243,243);
     --nbg2:white;
     --lst:rgb(241,248,249);
+    --chg:white;
 
 
 
@@ -52,7 +53,8 @@
     --ttbg:rgb(17,17,17);
     --nbg:rgb(26,26,26);
     --nbg2:rgb(26,26,26);
-    --lst:rgb(17,17,17)
+    --lst:rgb(17,17,17);
+    --chg:black;
 
 
 

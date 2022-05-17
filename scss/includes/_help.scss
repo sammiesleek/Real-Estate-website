@@ -22,7 +22,8 @@
                 padding: 0px 10px;
                 .cont{
                     @media (max-width:999px) {
-                        background-color: white;
+                        background-color: $chg;
+                        padding: 25px 25px;
                     }
                     padding: 10px;
                     display: flex;
